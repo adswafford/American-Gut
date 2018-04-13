@@ -7,13 +7,13 @@ Bacteria Perk and we appreciate your patience while we transitioned the sample
 processing for this perk from out collaborators to our in-house team at UC San
 Diego.
 
-DISCLAIMER: The following report is intended FOR RESEARCH USE ONLY and is not a diagnostic test of
-any kind. It should NOT be used to inform any clinical, medical, or otherwise health- or 
+ __DISCLAIMER: The following report is intended FOR RESEARCH USE ONLY and is not a diagnostic test of
+any kind. It should *NOT* be used to inform any clinical, medical, or otherwise health- or 
 lifestyle-related decision-making, behavior, or activity. As scientists we do our best to
 vet our data, ensure data integrity and provide the latest and best tools and analyses
 available, but we do not provide any medical or clinical information or advice and no
 information on specific organism found in the sample you provided is intended to be used
-for this purpose.
+for this purpose.__
 
 In the Knight Lab, part of the Center for Microbiome Innovation at UC San Diego, 
 we extracted DNA from your sample using the Earth Microbiome Project(EMP) standardized
@@ -58,15 +58,10 @@ The fungal microbiome has been studied in detail primarily through model organis
 <img style="float: right" height="50%" width="50%" src="img/10317.000017160_fungi_genera.png">
 <img style="float: right" height="50%" width="50%" src="img/10317.000017160_fungi_species.png">
 
-To view all of the organisms detected in your sample together please use the following links:
+To view a detailed breakdown of the organisms detected in your sample together please use the following links:
 [example biom](https://view.qiime2.org/visualization/?type=html&src=https%3A%2F%2Fdl.dropbox.com%2Fs%2Fgs7yjssl5xk0xb5%2Fmerged_kraken_phylum_table.qzv%3Fdl%3D1)
 
-
-[link to .qzv for each]
-[link to .qzv for each]
-[link to .qzv for each]
-
-In contrast, the microbes that live in us rely on a huge variety of functional pathways to keep growing, multiplying, 
+The microbes that live in us rely on a huge variety of functional pathways to keep growing, multiplying, 
 helping, and sometimes harming, us. The top 10 pathways detected in the provided stool sample are below:
 <img style="float: right" height="50%" width="50%" src="img/10317.000017160_function.png">
 

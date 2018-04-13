@@ -15,6 +15,8 @@ available, but we do not provide any medical or clinical information or advice a
 information on specific organism found in the sample you provided is intended to be used
 for this purpose.__
 
+### Background Methods and Processing Information
+
 In the Knight Lab, part of the Center for Microbiome Innovation at UC San Diego, 
 we extracted DNA from your sample using the Earth Microbiome Project(EMP) standardized
 protocol that was recently published in the November 2017 edition of Nature [https://www.nature.com/articles/nature24621],
@@ -31,7 +33,7 @@ network. Storage includes 250TB of primary storage with equal amounts of dedicat
 standard kit assessment to determine species and sometimes even strain-level identity for the microbes in
 your sample.
 
-If you would like to access your raw data, please contact us at info@americangut.org and we can provide you with instructions to access these large sequencing files. This data has been filtered to remove sequences that did not pass our quality control parameters, including the removal of sequences that matched to the human genome or our sequencing controls so these will not be
+If you would like to access your raw (.fastq) or processed (.biom) data, please contact us at info@americangut.org and we can provide you with instructions to access these large files. This data has been filtered to remove sequences that did not pass our quality control parameters, including the removal of sequences that matched to the human genome or our sequencing controls so these will not be
 present in the data.
 
 In the Oecophylla pipeline, the sequencing reads are matched to phyla, genera, and species using the [Kraken
@@ -58,8 +60,7 @@ The fungal microbiome has been studied in detail primarily through model organis
 <img style="float: right" height="50%" width="50%" src="img/10317.000017160_fungi_genera.png">
 <img style="float: right" height="50%" width="50%" src="img/10317.000017160_fungi_species.png">
 
-To view a detailed breakdown of the organisms detected in your sample together please use the following links:
-[example biom](https://view.qiime2.org/visualization/?type=html&src=https%3A%2F%2Fdl.dropbox.com%2Fs%2Fgs7yjssl5xk0xb5%2Fmerged_kraken_phylum_table.qzv%3Fdl%3D1)
+To view a detailed breakdown of the organisms detected in your sample together please click [here](https://view.qiime2.org/peek/?src=https%3A%2F%2Fdl.dropbox.com%2Fs%2Fzwkm1w22wqc67nw%2Fbiom_summary.qzv%3Fdl%3D1)
 
 The microbes that live in us rely on a huge variety of functional pathways to keep growing, multiplying, 
 helping, and sometimes harming, us. The top 10 pathways detected in the provided stool sample are below:
@@ -75,9 +76,9 @@ To visualization your sample in the context of these individuals, we have compre
 The first, called Jaccard distance, only considers the presence or absence of organisms in a sample from an individual while the second measurement, Bray-Curtis distance, takes into count the relative abundance of the organisms. Each of these is displayed in a Principal Coordinates Analysis (PCoA) plot, just like the figures that you have likely seen Rob Knight present in his [TED talk](https://youtu.be/i-icXZ2tMRM?t=8m34s).
 
 The PCoA for each type of measurement can be visualized in an [Emperor](https://biocore.github.io/emperor/) plot at these links:
-[Jaccard]()
+[Jaccard](https://view.qiime2.org/peek/?src=https%3A%2F%2Fdl.dropbox.com%2Fs%2F50z1f92mgqn1fhb%2Fjaccard_emperor.qzv%3Fdl%3D1)
 
-[Bray-Curtis]()
+[Bray-Curtis](https://view.qiime2.org/peek/?src=https%3A%2F%2Fdl.dropbox.com%2Fs%2Fhv579hg6i2bfwy9%2Fbray_curtis_emperor%3Fdl%3D1)
 
 The Emperor plot is a powerful way to explore the context for your sample. To view your sample in the context of the others, we recommend the following steps:
 Option 1- Automatic configuration:
@@ -98,6 +99,3 @@ i) Click on the dropdown menu on the left side of the box labeled 'you' and sele
 
 Additional information for navigating the Emperor display can be found on the [Emperor website](https://biocore.github.io/emperor/).
 
-Beyond visualizing your sample in the context of others, we can also examine the diversity of the community within your sample, known as alpha diversity, to see how you compare to the other individuals sequenced. The most straightforward way to do this is to look at the number of organisms found in your sample. A plot of this information is [here](https://view.qiime2.org/peek/?src=https%3A%2F%2Fdl.dropbox.com%2Fs%2Fadpkcyukulc81x1%2Fobserved_otus_vector.qza%3Fdl%3D1). As with the manual method before you'll want to select 'your_sample' from the menu to see how you compare with the rest of the AG participants.
-
-Another popular method for examining diversity was developed by Claude Shannon to quantify the entropy (uncertainty or information content) in the 1940s, but was quickly adopted by the ecological and later microbial ecology communities as this metric is a good way to capture the complexity of a community of organisms. A plot of Shannon diversity can be found [here](https://view.qiime2.org/peek/?src=https%3A%2F%2Fdl.dropbox.com%2Fs%2Fklqflfkq49p90n9%2Fshannon_vector.qza%3Fdl%3D1)

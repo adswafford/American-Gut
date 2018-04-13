@@ -61,6 +61,8 @@ The fungal microbiome has been studied in detail primarily through model organis
 <img style="float: right" height="50%" width="50%" src="img/10317.000017160_fungi_species.png">
 
 To view all of the organisms detected in your sample together please use the following links:
+iframe width="560" height="315" src="https://www.youtube.com/embed/dHHmUF9gs70" frameborder="0" allowfullscreen></iframe>
+
 [link to .qzv for each]
 [link to .qzv for each]
 [link to .qzv for each]

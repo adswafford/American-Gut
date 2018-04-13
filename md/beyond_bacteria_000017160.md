@@ -76,26 +76,28 @@ To visualization your sample in the context of these individuals, we have compre
 The first, called Jaccard distance, only considers the presence or absence of organisms in a sample from an individual while the second measurement, Bray-Curtis distance, takes into count the relative abundance of the organisms. Each of these is displayed in a Principal Coordinates Analysis (PCoA) plot, just like the figures that you have likely seen Rob Knight present in his [TED talk](https://youtu.be/i-icXZ2tMRM?t=8m34s).
 
 The PCoA for each type of measurement can be visualized in an [Emperor](https://biocore.github.io/emperor/) plot at these links:
-[Jaccard](https://view.qiime2.org/peek/?src=https%3A%2F%2Fdl.dropbox.com%2Fs%2F50z1f92mgqn1fhb%2Fjaccard_emperor.qzv%3Fdl%3D1)
 
+[Jaccard](https://view.qiime2.org/peek/?src=https%3A%2F%2Fdl.dropbox.com%2Fs%2F50z1f92mgqn1fhb%2Fjaccard_emperor.qzv%3Fdl%3D1)  
 [Bray-Curtis](https://view.qiime2.org/peek/?src=https%3A%2F%2Fdl.dropbox.com%2Fs%2Fhv579hg6i2bfwy9%2Fbray_curtis_emperor%3Fdl%3D1)
 
 The Emperor plot is a powerful way to explore the context for your sample. To view your sample in the context of the others, we recommend the following steps:
-Option 1- Automatic configuration:
-a) Download this [Emperor Settings File](img/emperor-settings.json)
-b) Open the link to the PCoA above
-c) Right click in the middle of the graph and select "Load Settings"
-d) Select the Emperor Settings File you downloaded
-Option 2- Manual configuration:
-a) Open the link to the PCoA above
-b) Select the 'Scale' tab from the menu on the right side of the plot
-c) Click on the box labeled "Select a Scale category"
-d) Type 'your_sample' and press the Enter[Return on Mac] key on your keyboard
-e) Click the '1' next to the word 'you' and then drag the slider to the right to increase the size of your sample.
-f) Click on the 'Shape' tab from the menu on the right side of the plot
-g) Click on the box labeled "Select a Shape category"
-h) Type 'your_sample' and press the Enter[Return on Mac] key on your keyboard
-i) Click on the dropdown menu on the left side of the box labeled 'you' and select an option to set the shape of your sample.
+
+Option 1- Automatic configuration:  
+a) Download this [Emperor Settings File](img/emperor-settings.json)  
+b) Open the link to the PCoA above  
+c) Right click in the middle of the graph and select "Load Settings"  
+d) Select the Emperor Settings File you downloaded  
+
+Option 2- Manual configuration:  
+a) Open the link to the PCoA above  
+b) Select the 'Scale' tab from the menu on the right side of the plot  
+c) Click on the box labeled "Select a Scale category"  
+d) Type 'your_sample' and press the Enter[Return on Mac] key on your keyboard  
+e) Click the '1' next to the word 'you' and then drag the slider to the right to increase the size of your sample.  
+f) Click on the 'Shape' tab from the menu on the right side of the plot  
+g) Click on the box labeled "Select a Shape category"  
+h) Type 'your_sample' and press the Enter[Return on Mac] key on your keyboard  
+i) Click on the dropdown menu on the left side of the box labeled 'you' and select an option to set the shape of your sample.  
 
 Additional information for navigating the Emperor display can be found on the [Emperor website](https://biocore.github.io/emperor/).
 

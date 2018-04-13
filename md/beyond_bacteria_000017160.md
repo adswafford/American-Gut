@@ -19,8 +19,8 @@ for this purpose.__
 
 In the Knight Lab, part of the Center for Microbiome Innovation at UC San Diego, 
 we extracted DNA from your sample using the Earth Microbiome Project(EMP) standardized
-protocol that was recently published in the November 2017 edition of Nature [https://www.nature.com/articles/nature24621],
-and is available on the EMP website [http://www.earthmicrobiome.org/protocols-and-standards/dna-extraction-protocol/] for easy reference. The extracted metgenomic DNA was
+protocol that was recently published in the November 2017 edition of [Nature](https://www.nature.com/articles/nature24621),
+and is available on the [EMP website](http://www.earthmicrobiome.org/protocols-and-standards/dna-extraction-protocol/) for easy reference. The extracted metgenomic DNA was
 then prepared for sequencing using our state-of-the art shotgun library preparation
 and sequenced on a HiSeq4000.
 
@@ -37,7 +37,7 @@ If you would like to access your raw (.fastq) or processed (.biom) data, please 
 present in the data.
 
 In the Oecophylla pipeline, the sequencing reads are matched to phyla, genera, and species using the [Kraken
-database] (https://ccb.jhu.edu/software/kraken/) and functional pathways are identified using [HUMANN2](http://huttenhower.sph.harvard.edu/humann2).
+database](https://ccb.jhu.edu/software/kraken/) and functional pathways are identified using [HUMANN2](http://huttenhower.sph.harvard.edu/humann2).
 
 ### Results
 
@@ -104,7 +104,7 @@ g) Click on the box labeled "Select a Shape category"
 h) Type 'your_sample' and press the Enter[Return on Mac] key on your keyboard  
 i) Click on the dropdown menu on the left side of the box labeled 'you' and select an option to set the shape of your sample.  
 
-Additional information for navigating the Emperor display can be found on the [Emperor website](https://biocore.github.io/emperor/).
+Additional information for navigating the Emperor display can be found on the [Emperor website](https://biocore.github.io/emperor/tutorial_index.html#section1).
 
 ### Conclusions
 

@@ -39,7 +39,7 @@ present in the data.
 In the Oecophylla pipeline, the sequencing reads are matched to phyla, genera, and species using the Kraken
 database [https://ccb.jhu.edu/software/kraken/] and functional pathways are identified using HUMANN2[http://huttenhower.sph.harvard.edu/humann2].
 
-###Results
+### Results
 
 The vast majority of the organisms detected in your sample were bacterial, and although many species were identified in your sample, a few types of organisms tended to dominate most of the stool sample you provided.
 <img style="float: right" height="50%" width="50%" src="img/10317.000017160_phylum.png">
@@ -61,7 +61,8 @@ The fungal microbiome has been studied in detail primarily through model organis
 <img style="float: right" height="50%" width="50%" src="img/10317.000017160_fungi_species.png">
 
 To view all of the organisms detected in your sample together please use the following links:
-iframe width="560" height="315" src="https://www.youtube.com/embed/dHHmUF9gs70" frameborder="0" allowfullscreen></iframe>
+[example biom](https://view.qiime2.org/visualization/?type=html&src=https%3A%2F%2Fdl.dropbox.com%2Fs%2Fgs7yjssl5xk0xb5%2Fmerged_kraken_phylum_table.qzv%3Fdl%3D1)
+
 
 [link to .qzv for each]
 [link to .qzv for each]

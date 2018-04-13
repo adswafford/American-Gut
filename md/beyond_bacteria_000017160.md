@@ -21,6 +21,7 @@ protocol that was recently published in the November 2017 edition of Nature [htt
 and is available on the EMP website [http://www.earthmicrobiome.org/protocols-and-standards/dna-extraction-protocol/] for easy reference. The extracted metgenomic DNA was
 then prepared for sequencing using our state-of-the art shotgun library preparation
 and sequenced on a HiSeq4000.
+
 <img style="float: right" height="50%" width="50%" src="img/Shotgun_overview.png">
 
 Following sequencing, your samples were processed using the Oecophylla sequencing analysis
@@ -38,12 +39,26 @@ present in the data.
 In the Oecophylla pipeline, the sequencing reads are matched to phyla, genera, and species using the Kraken
 database [https://ccb.jhu.edu/software/kraken/] and functional pathways are identified using HUMANN2[http://huttenhower.sph.harvard.edu/humann2].
 
-
+###Results
 
 The vast majority of the organisms detected in your sample were bacterial, and although many species were identified in your sample, a few types of organisms tended to dominate most of the stool sample you provided.
-[plot of phylum, genera, and species]
+<img style="float: right" height="50%" width="50%" src="img/10317.000017160_phylum.png">
+<img style="float: right" height="50%" width="50%" src="img/10317.000017160_genera.png">
+<img style="float: right" height="50%" width="50%" src="img/10317.000017160_species.png">
 
-Since the whole metagenomic sequencing pipeline is able to capture organisms beyond bacteria we have highlighted the most commonly detected viruses and fungi as well, though these were in much lower abundance.
+Since the whole metagenomic sequencing pipeline is able to capture organisms beyond bacteria we have highlighted the most commonly detected viruses and fungi as well, though verall these were in much lower abundance. 
+
+Compared to the bacteriome, relatively little is known about the rapidly evolving viruses that dwell on the bounadary between life and abiotic existance. This is relfected in the large number of unassigned, putative viral DNA detected:
+
+<img style="float: right" height="50%" width="50%" src="img/10317.000017160_virus_families.png">
+<img style="float: right" height="50%" width="50%" src="img/10317.000017160_virus_genera.png">
+<img style="float: right" height="50%" width="50%" src="img/10317.000017160_virus_species.png">
+
+The fungal microbiome has been studied in detail primarily through model organisms and the food we consume such as beer, wine, cheese, which often contains fungi, or in the case of mushrooms and truffles entirely fungal. We fond a small amount of fungi in your stool sample and the top organisms are highlighted here:
+
+<img style="float: right" height="50%" width="50%" src="img/10317.000017160_fungi_families.png">
+<img style="float: right" height="50%" width="50%" src="img/10317.000017160_fungi_genera.png">
+<img style="float: right" height="50%" width="50%" src="img/10317.000017160_fungi_species.png">
 
 To view all of the organisms detected in your sample together please use the following links:
 [link to .qzv for each]

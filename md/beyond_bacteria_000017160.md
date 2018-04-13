@@ -62,9 +62,14 @@ The fungal microbiome has been studied in detail primarily through model organis
 
 To view a detailed breakdown of the organisms detected in your sample together please click [here](https://view.qiime2.org/peek/?src=https%3A%2F%2Fdl.dropbox.com%2Fs%2Fzwkm1w22wqc67nw%2Fbiom_summary.qzv%3Fdl%3D1).
 
-The microbes that live in us rely on a huge variety of functional pathways to keep growing, multiplying, 
-helping, and sometimes harming, us. The top 10 pathways detected in the provided stool sample are below:
+### Functional pathways
+
+Determining which pathways and processes are active in a sample is best determined using alterative methods, but by looking at the gene pathways detected in the samples can provide us insight into the functional potential of the microbial community. Life is complex from the smallest organism to the largest and the microbes that live in us have adapted the unique environment of the human body. To do so, they rely on a huge variety of functional pathways to keep growing, multiplying, helping, and sometimes harming, us.
+
+The top 10 pathways detected in the provided stool sample are below:
 <img style="float: right" height="100%" width="100%" src="img/10317.000017160_function.png">
+
+### Your Sample in Context
 
 In our latest round of participation for this perk we had 17 total participants
 who all provided stool samples. Your sample was combined for analysis with these
@@ -101,3 +106,8 @@ i) Click on the dropdown menu on the left side of the box labeled 'you' and sele
 
 Additional information for navigating the Emperor display can be found on the [Emperor website](https://biocore.github.io/emperor/).
 
+### Conclusions
+
+No matter what you find in your gut, remember that these methods and techniques are on the cutting edge of research and will require years of validation and confirmation before we'll know how to interpret them to guide diets, lifestyles and healthcare decisions. While there are some emerging clinical trials that implement microbiome information we would like to stress again that no clinical, medical, or otherwise health- or lifestyle-related decision-making, behavior, or activity is advised based on this data. Instead, as with any health matter that arises, if you find something of concern, we recommend you remember that this report is research-grade only and instead contact your local primary care provider to discuss your specific health conditions and options.
+
+Thank you again for your participation in the American Gut Project and we look forward to your feedback and continued support for this citizen-science led initiative.

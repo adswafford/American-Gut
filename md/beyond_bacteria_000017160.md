@@ -56,7 +56,7 @@ Compared to the bacteriome, relatively little is known about the rapidly evolvin
 
 The fungal microbiome has been studied in detail primarily through model organisms and the food we consume such as beer, wine, cheese, which often contains fungi, or in the case of mushrooms and truffles entirely fungal. We fond a small amount of fungi in your stool sample and the top organisms are highlighted here:
 
-<img style="float: right" height="50%" width="50%" src="img/10317.000017160_fungi_families.png">
+<img style="float: right" height="50%" width="50%" src="img/10317.000017160_fungi_phyla.png">
 <img style="float: right" height="50%" width="50%" src="img/10317.000017160_fungi_genera.png">
 <img style="float: right" height="50%" width="50%" src="img/10317.000017160_fungi_species.png">
 

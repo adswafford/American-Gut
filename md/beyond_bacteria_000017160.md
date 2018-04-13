@@ -60,11 +60,11 @@ The fungal microbiome has been studied in detail primarily through model organis
 <img style="float: right" height="100%" width="100%" src="img/10317.000017160_fungi_genera.png">
 <img style="float: right" height="100%" width="100%" src="img/10317.000017160_fungi_species.png">
 
-To view a detailed breakdown of the organisms detected in your sample together please click [here](https://view.qiime2.org/peek/?src=https%3A%2F%2Fdl.dropbox.com%2Fs%2Fzwkm1w22wqc67nw%2Fbiom_summary.qzv%3Fdl%3D1)
+To view a detailed breakdown of the organisms detected in your sample together please click [here](https://view.qiime2.org/peek/?src=https%3A%2F%2Fdl.dropbox.com%2Fs%2Fzwkm1w22wqc67nw%2Fbiom_summary.qzv%3Fdl%3D1).
 
 The microbes that live in us rely on a huge variety of functional pathways to keep growing, multiplying, 
 helping, and sometimes harming, us. The top 10 pathways detected in the provided stool sample are below:
-<img style="float: right" height="50%" width="50%" src="img/10317.000017160_function.png">
+<img style="float: right" height="100%" width="100%" src="img/10317.000017160_function.png">
 
 In our latest round of participation for this perk we had 17 total participants
 who all provided stool samples. Your sample was combined for analysis with these

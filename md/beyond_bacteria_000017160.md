@@ -72,10 +72,11 @@ for deeper shotgun metagenomic sequencing through sponsorship from outside partn
 
 To visualization your sample in the context of these individuals, we have compressed all of the information about the composition of your sample into a single point and measured its similarity to the other individuals. We can compress this data in two primary forms.
 
-The first, called Jaccard distance, only considers the presence or absence of organisms in a sample from an individual while the second measurement, Bray-Curtis distance, takes into count the relative abundance of the organisms. Each of these is displayed in a Principal Coordinates Analysis (PCoA) plot, just like the figures that you have likely seen Rob Knight present in his [TED talk].
+The first, called Jaccard distance, only considers the presence or absence of organisms in a sample from an individual while the second measurement, Bray-Curtis distance, takes into count the relative abundance of the organisms. Each of these is displayed in a Principal Coordinates Analysis (PCoA) plot, just like the figures that you have likely seen Rob Knight present in his [TED talk](https://youtu.be/i-icXZ2tMRM?t=8m34s).
 
 The PCoA for each type of measurement can be visualized in an [Emperor](https://biocore.github.io/emperor/) plot at these links:
 [Jaccard]()
+
 [Bray-Curtis]()
 
 The Emperor plot is a powerful way to explore the context for your sample. To view your sample in the context of the others, we recommend the following steps:
@@ -97,6 +98,6 @@ i) Click on the dropdown menu on the left side of the box labeled 'you' and sele
 
 Additional information for navigating the Emperor display can be found on the [Emperor website](https://biocore.github.io/emperor/).
 
-Beyond visualizing your sample in the context of others, we can also examine the diversity of the community within your sample, known as alpha diversity, to see how you compare to the other individuals sequenced. The most straightforward way to do this is to look at the number of organisms found in your sample. A plot of this information is [here](). As with the manual method before you'll want to select 'your_sample' from the menu to see how you compare with the rest of the AG participants.
+Beyond visualizing your sample in the context of others, we can also examine the diversity of the community within your sample, known as alpha diversity, to see how you compare to the other individuals sequenced. The most straightforward way to do this is to look at the number of organisms found in your sample. A plot of this information is [here](https://view.qiime2.org/peek/?src=https%3A%2F%2Fdl.dropbox.com%2Fs%2Fadpkcyukulc81x1%2Fobserved_otus_vector.qza%3Fdl%3D1). As with the manual method before you'll want to select 'your_sample' from the menu to see how you compare with the rest of the AG participants.
 
-Another popular method for examining diversity was developed by Claude Shannon to quantify the entropy (uncertainty or information content) in the 1940s, but was quickly adopted by the ecological and later microbial ecology communities as this metric is a good way to capture the complexity of a community of organisms. A plot of Shannon diversity can be found [here]()
+Another popular method for examining diversity was developed by Claude Shannon to quantify the entropy (uncertainty or information content) in the 1940s, but was quickly adopted by the ecological and later microbial ecology communities as this metric is a good way to capture the complexity of a community of organisms. A plot of Shannon diversity can be found [here](https://view.qiime2.org/peek/?src=https%3A%2F%2Fdl.dropbox.com%2Fs%2Fklqflfkq49p90n9%2Fshannon_vector.qza%3Fdl%3D1)

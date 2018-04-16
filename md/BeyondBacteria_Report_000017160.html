@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
-<title>20180227 Text for report</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>BeyondBacteria_Report_000017160v3</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <style type="text/css">
@@ -11773,7 +11773,7 @@ div#notebook {
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[96]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#first run the other notebook to make the figs, then this to generate the reports</span>
@@ -11786,12 +11786,13 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">IPython</span>
 <span class="c1">#this snippet insert a link to toggle the code visibility</span>
 <span class="kn">from</span> <span class="nn">IPython.display</span> <span class="k">import</span> <span class="n">HTML</span>
+<span class="n">display</span><span class="p">(</span><span class="n">HTML</span><span class="p">(</span><span class="s2">&quot;&lt;style&gt;.container { width:90% !important; }&lt;/style&gt;&quot;</span><span class="p">))</span>
 <span class="n">display</span><span class="p">(</span><span class="n">HTML</span><span class="p">(</span><span class="s2">&quot;&quot;&quot;</span>
 <span class="s2">&lt;script&gt;</span>
 <span class="s2">    var code_show=true; //true -&gt; hide code at first</span>
@@ -11808,7 +11809,7 @@ div#notebook {
 <span class="s2">    }</span>
 <span class="s2">    $( document ).ready(code_toggle);</span>
 <span class="s2">&lt;/script&gt;</span>
-<span class="s2">&lt;a href=&quot;javascript:code_toggle()&quot;&gt;[Toggle Code]&lt;/a&gt;</span>
+<span class="s2">&lt;a href=&quot;javascript:code_toggle()&quot;&gt;&lt;/a&gt;</span>
 <span class="s2">&quot;&quot;&quot;</span><span class="p">))</span>
 </pre></div>
 
@@ -11819,6 +11820,18 @@ div#notebook {
 <div class="output_wrapper">
 <div class="output">
 
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<style>.container { width:90% !important; }</style>
+</div>
+
+</div>
 
 <div class="output_area">
 
@@ -11843,7 +11856,7 @@ div#notebook {
     }
     $( document ).ready(code_toggle);
 </script>
-<a href="javascript:code_toggle()">[Toggle Code]</a>
+<a href="javascript:code_toggle()"></a>
 
 </div>
 
@@ -11857,25 +11870,25 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img style="float: right" height="50%" width="50%" src="img/logo.svg"></p>
-<h3 id="Your-Beyond-Bacteria-Sample-Deep-Shotgun-Metagenomics-Report">Your Beyond Bacteria Sample Deep Shotgun Metagenomics Report<a class="anchor-link" href="#Your-Beyond-Bacteria-Sample-Deep-Shotgun-Metagenomics-Report">&#182;</a></h3><p>Thank you for your participation in the American Gut Project though the Beyond
+<p><img style="float: center" height="50%" width="50%" src="https://raw.githubusercontent.com/adswafford/American-Gut/master/md/img/logo.png"></p>
+<h1 id="Your-Beyond-Bacteria-Sample-Deep-Shotgun-Metagenomics-Report">Your Beyond Bacteria Sample Deep Shotgun Metagenomics Report<a class="anchor-link" href="#Your-Beyond-Bacteria-Sample-Deep-Shotgun-Metagenomics-Report">&#182;</a></h1><p>Thank you for your participation in the American Gut Project though the Beyond
 Bacteria Perk and we appreciate your patience while we transitioned the sample
 processing for this perk from our collaborators to our in-house team at UC San
 Diego.</p>
-<p><strong>DISCLAIMER: The following report is intended FOR RESEARCH USE ONLY and is not a diagnostic test of
-any kind. It should <em>NOT</em> be used to inform any clinical, medical, or otherwise health- or 
+<p><span style="color:red">__DISCLAIMER: The following report is intended FOR RESEARCH USE ONLY and is not a diagnostic test of
+any kind. It should *NOT* be used to inform any clinical, medical, or otherwise health- or 
 lifestyle-related decision-making, behavior, or activity. As scientists we do our best to
 vet our data, ensure data integrity and provide the latest and best tools and analyses
 available, but we do not provide any medical or clinical information or advice and no
 information on specific organism found in the sample you provided is intended to be used
-for this purpose.</strong></p>
-<h3 id="Background-Methods-and-Processing-Information">Background Methods and Processing Information<a class="anchor-link" href="#Background-Methods-and-Processing-Information">&#182;</a></h3><p>In the Knight Lab, part of the Center for Microbiome Innovation at UC San Diego, 
+for this purpose.__</span></p>
+<h2 id="Background-Methods-and-Processing-Information">Background Methods and Processing Information<a class="anchor-link" href="#Background-Methods-and-Processing-Information">&#182;</a></h2><p>In the Knight Lab, part of the Center for Microbiome Innovation at UC San Diego, 
 we extracted DNA from your sample using the Earth Microbiome Project(EMP) standardized
 protocol that was recently published in the November 2017 edition of <a href="https://www.nature.com/articles/nature24621">Nature</a>,
 and is available on the <a href="http://www.earthmicrobiome.org/protocols-and-standards/dna-extraction-protocol/">EMP website</a> for easy reference. The extracted metgenomic DNA was
 then prepared for sequencing using our state-of-the art shotgun library preparation
 and sequenced on a HiSeq4000.</p>
-<p><img style="float: right" height="100%" width="100%" src="img/Shotgun_overview.svg"></p>
+<p><img style="float: center" height="50%" width="50%" src="https://raw.githubusercontent.com/adswafford/American-Gut/master/md/img/Shotgun_overview.png"></p>
 <p>Following sequencing, your samples were processed using the <a href="https://github.com/biocore/oecophylla">Oecophylla</a> sequencing analysis
 pipeline under development in the Knight Lab using our supercomputing cluster
 'Barnacle', which is housed in the SDSC data center and managed by Knight Lab systems administrators. The Barnacle cluster includes 1024 Intel Ivy-bridge compute cores as well as 384 AMD compute cores, 12TB of total Ram with a 10GbE compute
@@ -11886,31 +11899,100 @@ your sample.</p>
 present in the data.</p>
 <p>In the Oecophylla pipeline, the sequencing reads are matched to phyla, genera, and species using the <a href="https://ccb.jhu.edu/software/kraken/">Kraken
 database</a> and functional pathways are identified using <a href="http://huttenhower.sph.harvard.edu/humann2">HUMANN2</a>.</p>
-<h3 id="Results">Results<a class="anchor-link" href="#Results">&#182;</a></h3><p>The vast majority of the organisms detected in your sample were bacterial, and although many species were identified in your sample, a few types of organisms tended to dominate most of the stool sample you provided.
-<img style="float: right" height="100%" width="100%" src="./BB_static_plots/10317.000017160_phylum.svg">
-<img style="float: right" height="100%" width="100%" src="./BB_static_plots/10317.000017160_genera.svg">
-<img style="float: right" height="100%" width="100%" src="./BB_static_plots/10317.000017160_species.svg"></p>
-<p>Since the whole metagenomic sequencing pipeline is able to capture organisms beyond bacteria we have highlighted the most commonly detected viruses and fungi as well, though overall these were in much lower abundance.</p>
-<p>Compared to the bacteriome, relatively little is known about the rapidly evolving viruses that dwell on the boundary between life and abiotic existance. This is relfected in the large number of unassigned, putative viruses detected from their DNA:</p>
-<p><img style="float: right" height="100%" width="100%" src="./BB_static_plots/10317.000017160_virus_families.svg">
-<img style="float: right" height="100%" width="100%" src="./BB_static_plots/10317.000017160_virus_genera.svg">
-<img style="float: right" height="100%" width="100%" src="./BB_static_plots/10317.000017160_virus_species.svg"></p>
-<p>The fungal microbiome has been studied in detail primarily through model organisms and the food we consume such as beer, wine, cheese, which often contains fungi, or in the case of mushrooms and truffles entirely fungal. We found a small amount of fungi in your stool sample and the top organisms are highlighted here:</p>
-<p><img style="float: right" height="100%" width="100%" src="./BB_static_plots/10317.000017160_fungi_phyla.svg">
-<img style="float: right" height="100%" width="100%" src="./BB_static_plots/10317.000017160_fungi_genera.svg">
-<img style="float: right" height="100%" width="100%" src="./BB_static_plots/10317.000017160_fungi_species.svg"></p>
-<p>You can explore all the organisms detected in your sample in the Qiime2 View below:</p>
+<h2 id="Results">Results<a class="anchor-link" href="#Results">&#182;</a></h2><p>The vast majority of the organisms detected in your sample were bacterial, and although many species were identified in your sample, a few types of organisms tended to dominate most of the stool sample you provided.</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Bacteria">Bacteria<a class="anchor-link" href="#Bacteria">&#182;</a></h3><p><img style="float: center;" src="https://raw.githubusercontent.com/adswafford/American-Gut/master/md/static_BB_plots/10317.000017160_bacteria_phyla.svg?sanitize=true"></p>
+<p><img style="float: center;" src="https://raw.githubusercontent.com/adswafford/American-Gut/master/md/static_BB_plots/10317.000017160_bacteria_genera.svg?sanitize=true"></p>
+<p><img style="float: center;" src="https://raw.githubusercontent.com/adswafford/American-Gut/master/md/static_BB_plots/10317.000017160_bacteria_species.svg?sanitize=true"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Beyond-Bacteria">Beyond Bacteria<a class="anchor-link" href="#Beyond-Bacteria">&#182;</a></h2><p>Since our metagenomic sequencing pipeline is able to capture organisms beyond bacteria we have highlighted the most commonly detected archaea, viruses and fungi, though overall these were in much lower abundance.</p>
+<p><img style="float:  center" height="50%" width="50%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Phylogenetic_tree.svg/900px-Phylogenetic_tree.svg.png"></p>
+<h3 id="Archaea">Archaea<a class="anchor-link" href="#Archaea">&#182;</a></h3><p>Archaea are microorganisms of similar size and shape to bacteria, however they are molecularly and genetically distinct from bacteria and are as related to bacteria as we are. Most of the Archaea detected in your sample was unknown, though this is to be expected since these organisms are not yet well characterized:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img style="float: center;" src="https://raw.githubusercontent.com/adswafford/American-Gut/master/md/static_BB_plots/10317.000017160_archaea_phyla.svg?sanitize=true"></p>
+<p><img style="float: center;" src="https://raw.githubusercontent.com/adswafford/American-Gut/master/md/static_BB_plots/10317.000017160_archaea_genera.svg?sanitize=true"></p>
+<p><img style="float: center;" src="https://raw.githubusercontent.com/adswafford/American-Gut/master/md/static_BB_plots/10317.000017160_archaea_species.svg?sanitize=true"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Viruses">Viruses<a class="anchor-link" href="#Viruses">&#182;</a></h3><p>Similarly, when compared to the bacteriome, relatively little is known about the rapidly evolving viruses that dwell on the boundary between life and abiotic existance. This is relfected in the large number of unassigned, putative viruses detected from their DNA:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img style="float: center;" src="https://raw.githubusercontent.com/adswafford/American-Gut/master/md/static_BB_plots/10317.000017160_virus_families.svg?sanitize=true"></p>
+<p><img style="float: center;" src="https://raw.githubusercontent.com/adswafford/American-Gut/master/md/static_BB_plots/10317.000017160_virus_genera.svg?sanitize=true"></p>
+<p><img style="float: center;" src="https://raw.githubusercontent.com/adswafford/American-Gut/master/md/static_BB_plots/10317.000017160_virus_species.svg?sanitize=true"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Fungi">Fungi<a class="anchor-link" href="#Fungi">&#182;</a></h3><p>The fungal microbiome has been studied in detail primarily through model organisms and the food we consume such as beer, wine, cheese, which often contains fungi, or in the case of mushrooms and truffles entirely fungal. We found a small amount of fungi in your stool sample and the top organisms are below:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img style="float: center;" src="https://raw.githubusercontent.com/adswafford/American-Gut/master/md/static_BB_plots/10317.000017160_fungi_phyla.svg?sanitize=true"></p>
+<p><img style="float: center;" src="https://raw.githubusercontent.com/adswafford/American-Gut/master/md/static_BB_plots/10317.000017160_fungi_genera.svg?sanitize=true"></p>
+<p><img style="float: center;" src="https://raw.githubusercontent.com/adswafford/American-Gut/master/md/static_BB_plots/10317.000017160_fungi_species.svg?sanitize=true"></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>You can explore all the organisms detected in your sample in the Qiime2 View below, by clicking on 'Feature Detail'. To view this in a new window, click <a href="https://view.qiime2.org/visualization/?src=https%3A%2F%2Fdl.dropbox.com%2Fs%2Fzwkm1w22wqc67nw%2Fbiom_summary.qzv%3Fdl%3D1">here</a>.</p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[98]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#displays the individual&#39;s combined_profile biom summary to explore the organisms detected</span>
-<span class="n">biom_summary_url</span> <span class="o">=</span> <span class="s1">&#39;https://view.qiime2.org/visualization/?src=https%3A</span><span class="si">%2F%2F</span><span class="s1">dl.dropbox.com</span><span class="si">%2F</span><span class="s1">s</span><span class="si">%2F</span><span class="s1">zwkm1w22wqc67nw</span><span class="si">%2F</span><span class="s1">biom_summary.qzv</span><span class="si">%3F</span><span class="s1">dl%3D1&#39;</span>
+<span class="n">biom_summary_url</span> <span class="o">=</span> <span class="s1">&#39;https://view.qiime2.org/visualization/?src=https%3A</span><span class="si">%2F%2F</span><span class="s1">dl.dropbox.com</span><span class="si">%2F</span><span class="s1">s</span><span class="si">%2F</span><span class="s1">qj0ilcgyueg31jw</span><span class="si">%2F</span><span class="s1">10317.000017160_kraken_comb_prof_table.qzv</span><span class="si">%3F</span><span class="s1">dl%3D1&#39;</span>
 <span class="n">biom_summary_iframe</span> <span class="o">=</span> <span class="s1">&#39;&lt;iframe src=&#39;</span> <span class="o">+</span> <span class="n">biom_summary_url</span> <span class="o">+</span> <span class="s1">&#39; width=100</span><span class="si">% he</span><span class="s1">ight=800&gt;&lt;/iframe&gt;&#39;</span>
 <span class="n">IPython</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">HTML</span><span class="p">(</span><span class="n">biom_summary_iframe</span><span class="p">)</span>
 </pre></div>
@@ -11925,12 +12007,12 @@ database</a> and functional pathways are identified using <a href="http://hutten
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[15]:</div>
+<div class="prompt output_prompt">Out[98]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<iframe src=https://view.qiime2.org/visualization/?src=https%3A%2F%2Fdl.dropbox.com%2Fs%2Fzwkm1w22wqc67nw%2Fbiom_summary.qzv%3Fdl%3D1 width=100% height=800></iframe>
+<iframe src=https://view.qiime2.org/visualization/?src=https%3A%2F%2Fdl.dropbox.com%2Fs%2Fqj0ilcgyueg31jw%2F10317.000017160_kraken_comb_prof_table.qzv%3Fdl%3D1 width=100% height=800></iframe>
 </div>
 
 </div>
@@ -11943,7 +12025,7 @@ database</a> and functional pathways are identified using <a href="http://hutten
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The raw table of these values, viewable in Excel is <a href="raw/tsv/10317.000017160_raw_counts.tsv">here</a>. For advanced users, you can access the <a href="raw/qza/10317.000017160_kraken_comb_prof_table.qza">Qiime2 Artifact(.qza)</a> or <a href="raw/biom/10317.000017160_kraken_comb_prof.biom">BIOM(.biom)</a> files.</p>
+<p>The raw table of these values, viewable in Excel is <a href="https://raw.githubusercontent.com/adswafford/American-Gut/master/md/raw/tsv/10317.000017160_raw_counts.tsv">here</a>. For advanced users, you can access the <a href="https://raw.githubusercontent.com/adswafford/American-Gut/master/md/raw/qza/10317.000017160_kraken_comb_prof_table.qza">Qiime2 Artifact(.qza)</a> or <a href="https://raw.githubusercontent.com/adswafford/American-Gut/master/md/raw/biom/10317.000017160_kraken_comb_prof.biom">BIOM(.biom)</a> files.</p>
 
 </div>
 </div>
@@ -11952,9 +12034,9 @@ database</a> and functional pathways are identified using <a href="http://hutten
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Functional-pathways">Functional pathways<a class="anchor-link" href="#Functional-pathways">&#182;</a></h3><p>Determining which pathways and processes are active in a sample is best determined using alterative methods, but by looking at the gene pathways detected in the samples can provide us insight into the functional potential of the microbial community. Life is complex from the smallest organism to the largest and the microbes that live in us have adapted the unique environment of the human body. To do so, they rely on a huge variety of functional pathways to keep growing, multiplying, helping, and sometimes harming, us.</p>
-<p>The top 10 pathways detected in the provided stool sample are below:
-<img style="float: right" height="100%" width="100%" src="img/10317.000017160_function.svg"></p>
+<h2 id="Functional-pathways">Functional pathways<a class="anchor-link" href="#Functional-pathways">&#182;</a></h2><p>Determining which pathways and processes are active in a sample is best determined using alterative methods, but by looking at the gene pathways detected in the samples can provide us insight into the functional potential of the microbial community. Life is complex from the smallest organism to the largest and the microbes that live in us have adapted the unique environment of the human body. To do so, they rely on a huge variety of functional pathways to keep growing, multiplying, helping, and sometimes harming, us.</p>
+<p>The top 10 pathways detected in the provided stool sample are below, though these only make up a tiny portion of all the pathways detected in your sample.</p>
+<p><img style="float: center;" src="https://raw.githubusercontent.com/adswafford/American-Gut/master/md/static_BB_plots/10317.000017160_function.svg?sanitize=true"></p>
 
 </div>
 </div>
@@ -11963,7 +12045,7 @@ database</a> and functional pathways are identified using <a href="http://hutten
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The raw table of these values, viewable in Excel is <a href="raw/tsv/10317.000017160_pathway_counts.tsv">here</a>. For advanced users, you can access the <a href="raw/qza/10317.000017160_humann2_cpm_table.qza">Qiime2 Artifact(.qza)</a> or <a href="raw/biom/10317.000017160_humann2_cpm.biom">BIOM(.biom)</a> files.</p>
+<p>The raw table of these values, viewable in Excel is <a href="https://raw.githubusercontent.com/adswafford/American-Gut/master/md/raw/tsv/10317.000017160_pathway_counts.tsv">here</a>. For advanced users, you can access the <a href="https://raw.githubusercontent.com/adswafford/American-Gut/master/md/raw/qza/10317.000017160_humann2_cpm_table.qza">Qiime2 Artifact(.qza)</a> or <a href="https://raw.githubusercontent.com/adswafford/American-Gut/master/md/raw/biom/10317.000017160_humann2_cpm.biom">BIOM(.biom)</a> files.</p>
 
 </div>
 </div>
@@ -11972,37 +12054,30 @@ database</a> and functional pathways are identified using <a href="http://hutten
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Your-Sample-in-Context">Your Sample in Context<a class="anchor-link" href="#Your-Sample-in-Context">&#182;</a></h3><p>In our latest round of participation for this perk we had 17 total participants
-who all provided stool samples. Your sample was combined for analysis with these
-participants and ~500 other AGP participants whose samples have been processed
-for deeper shotgun metagenomic sequencing through sponsorship from outside partners.</p>
+<h2 id="Your-Sample-in-Context">Your Sample in Context<a class="anchor-link" href="#Your-Sample-in-Context">&#182;</a></h2><p>In our latest round of participation for this perk we had 17 total participants who all provided stool samples. Your sample was combined for analysis with these participants and ~500 other AGP participants whose samples have been processed for deeper shotgun metagenomic sequencing through sponsorship from outside partners.</p>
 <p>To visualize your sample in the context of these individuals, we have compressed all of the information about the composition of your sample into a single point and measured its similarity to the other individuals to display in a Principal Coordinates Analysis (PCoA) plot, just like the figures that you have likely seen Rob Knight present in his <a href="https://youtu.be/i-icXZ2tMRM?t=8m34s">TED talk</a>.</p>
 <p>In the plots below, your samples is represented by the enlarged diamond-shaped point. You can compare where your sample sits relative to a variety of other information by clicking on the  'Color' tab from the menu on the right side of the plot and changing the category from 'country' to any of the other survey information our participants report.</p>
-<p>The first plot shows a comparison of Jaccard distance, which only considers the presence or absence of organisms in a sample from an individual. You can think of this as measuring 'who's there' in the sample. For example, if Forest A and Forest B each have lions, tigers, and bears, they are more similar to each other than a third forest (Forest C) that has lions and tigers, but no bears. So on this plot, two dots are closer together if they have similar organisms inside their samples, regardless of how many there are.</p>
 
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
 <div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Here&#39;s a plot of your sample relative to others based only on &#39;who&#39;s there&#39;</span>
-</pre></div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="A-plot-of-your-sample-relative-to-others-based-only-on-'who's-there'">A plot of your sample relative to others based only on 'who's there'<a class="anchor-link" href="#A-plot-of-your-sample-relative-to-others-based-only-on-'who's-there'">&#182;</a></h3><p>The first plot shows a comparison of Jaccard distance, which only considers the presence or absence of organisms in a sample from an individual. You can think of this as measuring 'who's there' in the sample. For example, if Forest A and Forest B each have lions, tigers, and bears, they are more similar to each other than a third forest (Forest C) that has lions and tigers, but no bears. So on this plot, two dots are closer together if they have similar organisms inside their samples, regardless of how many there are.</p>
+<p><em>Note: you may have to mouse over the image and zoom out depending on your monitor and browser size and settings. You can open this image in a new window <a href="https://view.qiime2.org/visualization/?src=https%3A%2F%2Fdl.dropbox.com%2Fs%2Ffpx069q25tykihr%2Fjaccard_emperor_preset.qzv%3Fdl%3D1">here</a>.</em></p>
 
 </div>
 </div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[99]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">jaccard_url</span> <span class="o">=</span> <span class="s1">&#39;https://view.qiime2.org/visualization/?src=https%3A</span><span class="si">%2F%2F</span><span class="s1">dl.dropbox.com</span><span class="si">%2F</span><span class="s1">s</span><span class="si">%2F</span><span class="s1">fpx069q25tykihr</span><span class="si">%2F</span><span class="s1">jaccard_emperor_preset.qzv</span><span class="si">%3F</span><span class="s1">dl%3D1&#39;</span>
-<span class="n">jaccard_iframe</span> <span class="o">=</span> <span class="s1">&#39;&lt;iframe src=&#39;</span> <span class="o">+</span> <span class="n">jaccard_url</span> <span class="o">+</span> <span class="s1">&#39; width=100</span><span class="si">% he</span><span class="s1">ight=800&gt;&lt;/iframe&gt;&#39;</span>
+<span class="n">jaccard_iframe</span> <span class="o">=</span> <span class="s1">&#39;&lt;iframe src=&#39;</span> <span class="o">+</span> <span class="n">jaccard_url</span> <span class="o">+</span> <span class="s1">&#39; width=100</span><span class="si">% he</span><span class="s1">ight=1000&gt;&lt;/iframe&gt;&#39;</span>
 <span class="n">IPython</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">HTML</span><span class="p">(</span><span class="n">jaccard_iframe</span><span class="p">)</span>
 </pre></div>
 
@@ -12016,12 +12091,12 @@ for deeper shotgun metagenomic sequencing through sponsorship from outside partn
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[17]:</div>
+<div class="prompt output_prompt">Out[99]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<iframe src=https://view.qiime2.org/visualization/?src=https%3A%2F%2Fdl.dropbox.com%2Fs%2Ffpx069q25tykihr%2Fjaccard_emperor_preset.qzv%3Fdl%3D1 width=100% height=800></iframe>
+<iframe src=https://view.qiime2.org/visualization/?src=https%3A%2F%2Fdl.dropbox.com%2Fs%2Ffpx069q25tykihr%2Fjaccard_emperor_preset.qzv%3Fdl%3D1 width=100% height=1000></iframe>
 </div>
 
 </div>
@@ -12034,32 +12109,20 @@ for deeper shotgun metagenomic sequencing through sponsorship from outside partn
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The second plot shows a comparison of your Bray-Curtis distance, which takes into account not just who's there, but how many of each organism are in your sample. Using the example above, if Forest A has 50 lions, 48 tigers, and 2 bears while Forest B has 50 lions, 25 tigers and 25 bears, Forest A may be more similar to Forest C with 50 lions, 50 tigers, and 0 bears than Forest B is to Forest C.</p>
+<h3 id="A-plot-of-your-sample-relative-to-others-based-on-'who's-there-and-how-many-there-are">A plot of your sample relative to others based on 'who's there and how many there are<a class="anchor-link" href="#A-plot-of-your-sample-relative-to-others-based-on-'who's-there-and-how-many-there-are">&#182;</a></h3><p>The second plot shows a comparison of your Bray-Curtis distance, which takes into account not just who's there, but how many of each organism are in your sample. Using the example above, if Forest A has 50 lions, 48 tigers, and 2 bears while Forest B has 50 lions, 25 tigers and 25 bears, Forest A may be more similar to Forest C with 50 lions, 50 tigers, and 0 bears than Forest B is to Forest C.</p>
 <p>It can be a little confusing to think about these relationships so it's best to just focus on the fact that we have different ways of measuring how similar two samples are to each other, and the different measurements will tell us different things about the community and its structure.</p>
+<p><em>Note: you may have to mouse over the image and zoom out depending on your monitor and browser size and settings. You can open this image in a new window <a href="https://view.qiime2.org/visualization/?src=https%3A%2F%2Fdl.dropbox.com%2Fs%2Fvww6m1dk8ih09iy%2Fbray_curtis_emperor_preset.qzv%3Fdl%3D1">here</a>.</em></p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">### Here&#39;s a plot of your sample relative to others based on &#39;who&#39;s there and how many there are</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[100]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">braycurtis_url</span> <span class="o">=</span> <span class="s1">&#39;https://view.qiime2.org/visualization/?src=https%3A</span><span class="si">%2F%2F</span><span class="s1">dl.dropbox.com</span><span class="si">%2F</span><span class="s1">s</span><span class="si">%2F</span><span class="s1">vww6m1dk8ih09iy</span><span class="si">%2F</span><span class="s1">bray_curtis_emperor_preset.qzv</span><span class="si">%3F</span><span class="s1">dl%3D1&#39;</span>
-<span class="n">braycurtis_iframe</span> <span class="o">=</span> <span class="s1">&#39;&lt;iframe src=&#39;</span> <span class="o">+</span> <span class="n">braycurtis_url</span> <span class="o">+</span> <span class="s1">&#39; width=100</span><span class="si">% he</span><span class="s1">ight=800&gt;&lt;/iframe&gt;&#39;</span>
+<span class="n">braycurtis_iframe</span> <span class="o">=</span> <span class="s1">&#39;&lt;iframe src=&#39;</span> <span class="o">+</span> <span class="n">braycurtis_url</span> <span class="o">+</span> <span class="s1">&#39; width=100</span><span class="si">% he</span><span class="s1">ight=1000&gt;&lt;/iframe&gt;&#39;</span>
 <span class="n">IPython</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">HTML</span><span class="p">(</span><span class="n">braycurtis_iframe</span><span class="p">)</span>
 </pre></div>
 
@@ -12073,12 +12136,12 @@ for deeper shotgun metagenomic sequencing through sponsorship from outside partn
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[19]:</div>
+<div class="prompt output_prompt">Out[100]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
-<iframe src=https://view.qiime2.org/visualization/?src=https%3A%2F%2Fdl.dropbox.com%2Fs%2Fvww6m1dk8ih09iy%2Fbray_curtis_emperor_preset.qzv%3Fdl%3D1 width=100% height=800></iframe>
+<iframe src=https://view.qiime2.org/visualization/?src=https%3A%2F%2Fdl.dropbox.com%2Fs%2Fvww6m1dk8ih09iy%2Fbray_curtis_emperor_preset.qzv%3Fdl%3D1 width=100% height=1000></iframe>
 </div>
 
 </div>
@@ -12091,7 +12154,7 @@ for deeper shotgun metagenomic sequencing through sponsorship from outside partn
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Conclusions">Conclusions<a class="anchor-link" href="#Conclusions">&#182;</a></h3><p>No matter what you find in your gut, remember that these methods and techniques are on the cutting edge of research and will require years of validation and confirmation before we'll know how to interpret them to guide diets, lifestyles and healthcare decisions. While there are some emerging clinical trials that implement microbiome information we would like to stress again that no clinical, medical, or otherwise health- or lifestyle-related decision-making, behavior, or activity is advised based on this data. Instead, as with any health matter that arises, if you find something of concern, we recommend you remember that this report is research-grade only and instead contact your local primary care provider to discuss your specific health conditions and options.</p>
+<h2 id="Conclusions">Conclusions<a class="anchor-link" href="#Conclusions">&#182;</a></h2><p>No matter what you find in your gut, remember that these methods and techniques are on the cutting edge of research and will require years of validation and confirmation before we'll know how to interpret them to guide diets, lifestyles and healthcare decisions. While there are some emerging clinical trials that implement microbiome information we would like to stress again that no clinical, medical, or otherwise health- or lifestyle-related decision-making, behavior, or activity is advised based on this data. Instead, as with any health matter that arises, if you find something of concern, we recommend you remember that this report is research-grade only and instead contact your local primary care provider to discuss your specific health conditions and options.</p>
 <p>Thank you again for your participation in the American Gut Project and we look forward to your feedback and continued support for this citizen-science led initiative.</p>
 
 </div>

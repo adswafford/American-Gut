@@ -1,0 +1,208 @@
+# Constructed from biom file
+#OTU ID	10317.000035368
+1CMET2-PWY: N10-formyl-tetrahydrofolate biosynthesis	0.504602523013
+ANAEROFRUCAT-PWY: homolactic fermentation	0.182000910005
+ANAGLYCOLYSIS-PWY: glycolysis III (from glucose)	0.833104165521
+ARGININE-SYN4-PWY: L-ornithine de novo  biosynthesis	0.0366001830009
+ARGSYN-PWY: L-arginine biosynthesis I (via L-ornithine)	0.157600788004
+ARGSYNBSUB-PWY: L-arginine biosynthesis II (acetyl cycle)	0.0611003055015
+ARO-PWY: chorismate biosynthesis I	2.22111110556
+ASPASN-PWY: superpathway of L-aspartate and L-asparagine biosynthesis	0.41240206201
+BRANCHED-CHAIN-AA-SYN-PWY: superpathway of branched amino acid biosynthesis	1.51520757604
+CALVIN-PWY: Calvin-Benson-Bassham cycle	1.18620593103
+CENTFERM-PWY: pyruvate fermentation to butanoate	0.0151000755004
+CITRULBIO-PWY: L-citrulline biosynthesis	0.110600553003
+COA-PWY-1: coenzyme A biosynthesis II (mammalian)	1.42020710104
+COA-PWY: coenzyme A biosynthesis I	0.678603393017
+COBALSYN-PWY: adenosylcobalamin salvage from cobinamide I	0.495102475512
+COLANSYN-PWY: colanic acid building blocks biosynthesis	0.0948004740024
+COMPLETE-ARO-PWY: superpathway of aromatic amino acid biosynthesis	2.14021070105
+DAPLYSINESYN-PWY: L-lysine biosynthesis I	0.0461002305012
+DENOVOPURINE2-PWY: superpathway of purine nucleotides de novo biosynthesis II	0.132900664503
+DTDPRHAMSYN-PWY: dTDP-L-rhamnose biosynthesis I	0.772503862519
+FERMENTATION-PWY: mixed acid fermentation	0.0337001685008
+FUCCAT-PWY: fucose degradation	0.0727003635018
+GALACT-GLUCUROCAT-PWY: superpathway of hexuronide and hexuronate degradation	0.520002600013
+GALACTUROCAT-PWY: D-galacturonate degradation I	0.468902344512
+GLCMANNANAUT-PWY: superpathway of N-acetylglucosamine, N-acetylmannosamine and N-acetylneuraminate degradation	0.703703518518
+GLUCONEO-PWY: gluconeogenesis I	0.0567002835014
+GLUCUROCAT-PWY: superpathway of &beta;-D-glucuronide and D-glucuronate degradation	0.589802949015
+GLUDEG-I-PWY: GABA shunt	0.0178000890004
+GLUTORN-PWY: L-ornithine biosynthesis	0.0346001730009
+GLYCOGENSYNTH-PWY: glycogen biosynthesis I (from ADP-D-Glucose)	0.375201876009
+GLYCOLYSIS: glycolysis I (from glucose 6-phosphate)	0.0751003755019
+GLYOXYLATE-BYPASS: glyoxylate cycle	0.0250001250006
+GOLPDLCAT-PWY: superpathway of glycerol degradation to 1,3-propanediol	0.0555002775014
+HEMESYN2-PWY: heme biosynthesis II (anaerobic)	0.0945004725024
+HISDEG-PWY: L-histidine degradation I	0.0741003705019
+HISTSYN-PWY: L-histidine biosynthesis	1.17810589053
+HOMOSER-METSYN-PWY: L-methionine biosynthesis I	0.245201226006
+HSERMETANA-PWY: L-methionine biosynthesis III	0.240301201506
+ILEUSYN-PWY: L-isoleucine biosynthesis I (from threonine)	2.13141065705
+LACTOSECAT-PWY: lactose and galactose degradation I	0.0226001130006
+MET-SAM-PWY: superpathway of S-adenosyl-L-methionine biosynthesis	0.450202251011
+METSYN-PWY: L-homoserine and L-methionine biosynthesis	0.424402122011
+NAGLIPASYN-PWY: lipid IVA biosynthesis	0.0236001180006
+NONMEVIPP-PWY: methylerythritol phosphate pathway I	1.79110895554
+NONOXIPENT-PWY: pentose phosphate pathway (non-oxidative branch)	0.909104545523
+OANTIGEN-PWY: O-antigen building blocks biosynthesis (E. coli)	0.120800604003
+P108-PWY: pyruvate fermentation to propanoate I	0.0663003315017
+P161-PWY: acetylene degradation	0.0241001205006
+P162-PWY: L-glutamate degradation V (via hydroxyglutarate)	0.0190000950005
+P185-PWY: formaldehyde assimilation III (dihydroxyacetone cycle)	0.0509002545013
+P4-PWY: superpathway of L-lysine, L-threonine and L-methionine biosynthesis I	0.0733003665018
+P42-PWY: incomplete reductive TCA cycle	0.041100205501
+PANTO-PWY: phosphopantothenate biosynthesis I	0.874904374522
+PANTOSYN-PWY: pantothenate and coenzyme A biosynthesis I	0.720503602518
+PEPTIDOGLYCANSYN-PWY: peptidoglycan biosynthesis I (meso-diaminopimelate containing)	1.83730918655
+PHOSLIPSYN-PWY: superpathway of phospholipid biosynthesis I (bacteria)	0.0581002905015
+POLYAMSYN-PWY: superpathway of polyamine biosynthesis I	0.0642003210016
+PPGPPMET-PWY: ppGpp biosynthesis	0.0241001205006
+PRPP-PWY: superpathway of histidine, purine, and pyrimidine biosynthesis	0.100000500003
+PWY-1042: glycolysis IV (plant cytosol)	1.77260886304
+PWY-1269: CMP-3-deoxy-D-manno-octulosonate biosynthesis I	0.0454002270011
+PWY-1861: formaldehyde assimilation II (RuMP Cycle)	0.0671003355017
+PWY-241: C4 photosynthetic carbon assimilation cycle, NADP-ME type	0.0150000750004
+PWY-2941: L-lysine biosynthesis II	0.109400547003
+PWY-2942: L-lysine biosynthesis III	0.914704573523
+PWY-3001: superpathway of L-isoleucine biosynthesis I	1.05860529303
+PWY-3841: folate transformations II	0.670203351017
+PWY-4041: &gamma;-glutamyl cycle	0.0181000905005
+PWY-4242: pantothenate and coenzyme A biosynthesis III	0.512502562513
+PWY-4702: phytate degradation I	0.0171000855004
+PWY-4981: L-proline biosynthesis II (from arginine)	0.080400402002
+PWY-4984: urea cycle	0.102400512003
+PWY-5022: 4-aminobutanoate degradation V	0.0148000740004
+PWY-5030: L-histidine degradation III	0.0674003370017
+PWY-5097: L-lysine biosynthesis VI	1.43570717854
+PWY-5100: pyruvate fermentation to acetate and lactate II	0.690003450017
+PWY-5101: L-isoleucine biosynthesis II	0.0574002870014
+PWY-5103: L-isoleucine biosynthesis III	1.40610703054
+PWY-5104: L-isoleucine biosynthesis IV	0.199100995505
+PWY-5121: superpathway of geranylgeranyl diphosphate biosynthesis II (via MEP)	0.196900984505
+PWY-5154: L-arginine biosynthesis III (via N-acetyl-L-citrulline)	0.0366001830009
+PWY-5177: glutaryl-CoA degradation	0.38450192251
+PWY-5188: tetrapyrrole biosynthesis I (from glutamate)	0.170000850004
+PWY-5304: superpathway of sulfur oxidation (Acidianus ambivalens)	0.0189000945005
+PWY-5345: superpathway of L-methionine biosynthesis (by sulfhydrylation)	0.0712003560018
+PWY-5347: superpathway of L-methionine biosynthesis (transsulfuration)	0.424302121511
+PWY-5384: sucrose degradation IV (sucrose phosphorylase)	0.0972004860024
+PWY-5484: glycolysis II (from fructose 6-phosphate)	0.0725003625018
+PWY-5659: GDP-mannose biosynthesis	0.643603218016
+PWY-5667: CDP-diacylglycerol biosynthesis I	1.70080850404
+PWY-5676: acetyl-CoA fermentation to butanoate II	0.0482002410012
+PWY-5686: UMP biosynthesis	2.22581112906
+PWY-5690: TCA cycle II (plants and fungi)	0.0179000895004
+PWY-5695: urate biosynthesis/inosine 5'-phosphate degradation	0.710703553518
+PWY-5705: allantoin degradation to glyoxylate III	0.0280001400007
+PWY-5723: Rubisco shunt	0.0603003015015
+PWY-5913: TCA cycle VI (obligate autotrophs)	0.0159000795004
+PWY-5941: glycogen degradation II (eukaryotic)	0.213901069505
+PWY-5973: cis-vaccenate biosynthesis	0.375101875509
+PWY-6121: 5-aminoimidazole ribonucleotide biosynthesis I	1.68500842504
+PWY-6122: 5-aminoimidazole ribonucleotide biosynthesis II	1.92980964905
+PWY-6123: inosine-5'-phosphate biosynthesis I	0.503002515013
+PWY-6124: inosine-5'-phosphate biosynthesis II	0.447602238011
+PWY-6125: superpathway of guanosine nucleotides de novo biosynthesis II	0.0857004285021
+PWY-6126: superpathway of adenosine nucleotides de novo biosynthesis II	0.600703003515
+PWY-6147: 6-hydroxymethyl-dihydropterin diphosphate biosynthesis I	0.0488002440012
+PWY-6151: S-adenosyl-L-methionine cycle I	1.62440812204
+PWY-6163: chorismate biosynthesis from 3-dehydroquinate	2.17941089705
+PWY-6168: flavin biosynthesis III (fungi)	0.356901784509
+PWY-621: sucrose degradation III (sucrose invertase)	0.744503722519
+PWY-6270: isoprene biosynthesis I	0.341301706509
+PWY-6277: superpathway of 5-aminoimidazole ribonucleotide biosynthesis	1.92980964905
+PWY-6305: putrescine biosynthesis IV	0.259301296506
+PWY-6317: galactose degradation I (Leloir pathway)	0.931104655523
+PWY-6353: purine nucleotides degradation II (aerobic)	0.200001000005
+PWY-6385: peptidoglycan biosynthesis III (mycobacteria)	1.15580577903
+PWY-6386: UDP-N-acetylmuramoyl-pentapeptide biosynthesis II (lysine-containing)	2.06291031455
+PWY-6387: UDP-N-acetylmuramoyl-pentapeptide biosynthesis I (meso-diaminopimelate containing)	1.94020970105
+PWY-6471: peptidoglycan biosynthesis IV (Enterococcus faecium)	0.0938004690023
+PWY-6507: 4-deoxy-L-threo-hex-4-enopyranuronate degradation	0.422102110511
+PWY-6527: stachyose degradation	1.04270521353
+PWY-6545: pyrimidine deoxyribonucleotides de novo biosynthesis III	0.0577002885014
+PWY-6588: pyruvate fermentation to acetone	0.111000555003
+PWY-6590: superpathway of Clostridium acetobutylicum acidogenic fermentation	0.0193000965005
+PWY-6595: superpathway of guanosine nucleotides degradation (plants)	0.080600403002
+PWY-6606: guanosine nucleotides degradation II	0.0905004525023
+PWY-6608: guanosine nucleotides degradation III	0.262701313507
+PWY-6609: adenine and adenosine salvage III	0.748403742019
+PWY-6700: queuosine biosynthesis	0.874504372522
+PWY-6703: preQ0 biosynthesis	0.354101770509
+PWY-6737: starch degradation V	2.80841404207
+PWY-6897: thiamin salvage II	0.137600688003
+PWY-6936: seleno-amino acid biosynthesis	0.375301876509
+PWY-6969: TCA cycle V (2-oxoglutarate:ferredoxin oxidoreductase)	0.0319001595008
+PWY-7003: glycerol degradation to butanol	0.0664003320017
+PWY-7013: L-1,2-propanediol degradation	0.0750003750019
+PWY-7111: pyruvate fermentation to isobutanol (engineered)	2.13141065705
+PWY-7115: C4 photosynthetic carbon assimilation cycle, NAD-ME type	0.0220001100006
+PWY-7117: C4 photosynthetic carbon assimilation cycle, PEPCK type	0.0235001175006
+PWY-7184: pyrimidine deoxyribonucleotides de novo biosynthesis I	0.0583002915015
+PWY-7187: pyrimidine deoxyribonucleotides de novo biosynthesis II	0.136600683003
+PWY-7196: superpathway of pyrimidine ribonucleosides salvage	0.080800404002
+PWY-7197: pyrimidine deoxyribonucleotide phosphorylation	0.0355001775009
+PWY-7198: pyrimidine deoxyribonucleotides de novo biosynthesis IV	0.0423002115011
+PWY-7199: pyrimidine deoxyribonucleosides salvage	0.372401862009
+PWY-7208: superpathway of pyrimidine nucleobases salvage	0.539402697013
+PWY-7210: pyrimidine deoxyribonucleotides biosynthesis from CTP	0.0505002525013
+PWY-7211: superpathway of pyrimidine deoxyribonucleotides de novo biosynthesis	0.0725003625018
+PWY-7219: adenosine ribonucleotides de novo biosynthesis	2.94461472307
+PWY-7220: adenosine deoxyribonucleotides de novo biosynthesis II	0.296601483007
+PWY-7221: guanosine ribonucleotides de novo biosynthesis	2.18371091855
+PWY-7222: guanosine deoxyribonucleotides de novo biosynthesis II	0.296601483007
+PWY-7228: superpathway of guanosine nucleotides de novo biosynthesis I	0.0776003880019
+PWY-7229: superpathway of adenosine nucleotides de novo biosynthesis I	0.827804139021
+PWY-7234: inosine-5'-phosphate biosynthesis III	0.124100620503
+PWY-7242: D-fructuronate degradation	0.520202601013
+PWY-724: superpathway of L-lysine, L-threonine and L-methionine biosynthesis II	1.07720538603
+PWY-7254: TCA cycle VII (acetate-producers)	0.0165000825004
+PWY-7282: 4-amino-2-methyl-5-phosphomethylpyrimidine biosynthesis (yeast)	0.276501382507
+PWY-7315: dTDP-N-acetylthomosamine biosynthesis	0.0149000745004
+PWY-7323: superpathway of GDP-mannose-derived O-antigen building blocks biosynthesis	0.0653003265016
+PWY-7357: thiamin formation from pyrithiamine and oxythiamine (yeast)	0.856804284021
+PWY-7383: anaerobic energy metabolism (invertebrates, cytosol)	0.454202271011
+PWY-7400: L-arginine biosynthesis IV (archaebacteria)	0.181600908005
+PWY-7456: mannan degradation	0.102500512503
+PWY-7560: methylerythritol phosphate pathway II	0.306401532008
+PWY-7663: gondoate biosynthesis (anaerobic)	0.319901599508
+PWY-841: superpathway of purine nucleotides de novo biosynthesis I	0.122000610003
+PWY0-1061: superpathway of L-alanine biosynthesis	0.040400202001
+PWY0-1241: ADP-L-glycero-&beta;-D-manno-heptose biosynthesis	0.0153000765004
+PWY0-1296: purine ribonucleosides degradation	2.17961089805
+PWY0-1297: superpathway of purine deoxyribonucleosides degradation	0.169000845004
+PWY0-1298: superpathway of pyrimidine deoxyribonucleosides degradation	0.0936004680023
+PWY0-1319: CDP-diacylglycerol biosynthesis II	1.70080850404
+PWY0-1479: tRNA processing	0.0186000930005
+PWY0-1586: peptidoglycan maturation (meso-diaminopimelate containing)	0.279601398007
+PWY0-162: superpathway of pyrimidine ribonucleotides de novo biosynthesis	0.111700558503
+PWY0-166: superpathway of pyrimidine deoxyribonucleotides de novo biosynthesis (E. coli)	0.117100585503
+PWY0-781: aspartate superpathway	0.0774003870019
+PWY0-845: superpathway of pyridoxal 5'-phosphate biosynthesis and salvage	0.112300561503
+PWY4FS-7: phosphatidylglycerol biosynthesis I (plastidic)	0.0353001765009
+PWY4FS-8: phosphatidylglycerol biosynthesis II (non-plastidic)	0.0353001765009
+PWY4LZ-257: superpathway of fermentation (Chlamydomonas reinhardtii)	0.0290001450007
+PWY66-399: gluconeogenesis III	0.101900509503
+PWY66-400: glycolysis VI (metazoan)	0.0828004140021
+PWY66-409: superpathway of purine nucleotide salvage	0.128600643003
+PWY66-422: D-galactose degradation V (Leloir pathway)	0.931104655523
+PYRIDNUCSYN-PWY: NAD biosynthesis I (from aspartate)	0.339501697508
+PYRIDOXSYN-PWY: pyridoxal 5'-phosphate biosynthesis I	0.079100395502
+REDCITCYC: TCA cycle VIII (helicobacter)	0.0307001535008
+RHAMCAT-PWY: L-rhamnose degradation I	0.301201506008
+RIBOSYN2-PWY: flavin biosynthesis I (bacteria and plants)	0.162600813004
+SALVADEHYPOX-PWY: adenosine nucleotides degradation II	0.233301166506
+SER-GLYSYN-PWY: superpathway of L-serine and glycine biosynthesis I	0.698503492517
+SO4ASSIM-PWY: sulfate reduction I (assimilatory)	0.0322001610008
+SULFATE-CYS-PWY: superpathway of sulfate assimilation and cysteine biosynthesis	0.0641003205016
+TCA-GLYOX-BYPASS: superpathway of glyoxylate bypass and TCA	0.0175000875004
+TCA: TCA cycle I (prokaryotic)	0.0330001650008
+THISYNARA-PWY: superpathway of thiamin diphosphate biosynthesis III (eukaryotes)	0.513502567513
+THRESYN-PWY: superpathway of L-threonine biosynthesis	0.858504292521
+TRNA-CHARGING-PWY: tRNA charging	1.73990869954
+TRPSYN-PWY: L-tryptophan biosynthesis	0.546802734014
+UDPNAGSYN-PWY: UDP-N-acetyl-D-glucosamine biosynthesis I	0.0674003370017
+VALSYN-PWY: L-valine biosynthesis	2.13141065705
+PWY-101: photosynthesis light reactions	0.0710003550018
+PWY-6785: hydrogen production VIII	0.041300206501
